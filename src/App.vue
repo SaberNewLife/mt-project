@@ -1,7 +1,10 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!--<img alt="Vue logo" src="./assets/logo.png">-->
+    <HelloWorld msg="Vue 全家桶">
+       <h2 slot="a">测试具名插槽</h2>
+       <h2 slot="b">测试具名插槽b</h2>
+    </HelloWorld>
   </div>
 </template>
 
